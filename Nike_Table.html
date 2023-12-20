@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
+    <title>HTML Table with Merged Cells</title>
+    <style>  
+        h1 {
+            text-align: center;
+            width: 105%;
+        }
+        table {
+            position: relative;
+            max-width: 500px;
+            backdrop-filter: blur(15px);
+            margin: 0 auto;
+            text-align: center;
+            background-color: transparent;
+            padding: 20px;
+            border-radius: 10px;
+            justify-content: center;
+            padding: 3rem 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        th,
+        td {
+            border: 1px solid #080808;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ffffff;
+        }
+
+        .unv {
+            background-color: red;
+
+        }
+        .unv1 {
+            background-color: green;
+        }
+        .un {
+            background-color: rgb(233, 233, 222);
+        }
+        body {
+            background-image: url("download.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1>NIKE SHOES</h1>
+    <table>
+        <tr>
+            <th class="un">Product Name</th>
+            <th class="un">Price</th>
+            <th class="un">Availability</th>
+        </tr>
+        <tr class="unv1">
+            <td><b>NIKE REVOLUTION 6</b></td>
+            <td><b>$2,895.00</b></td>
+            <td><b>Available</b></td>
+        </tr>
+        <tr class="unv1">
+            <td><b>NIKE AIRFORCE</b></td>
+            <td><b>$5,495.00</b></td>
+            <td><b>Available</b></td>
+        </tr>
+        <tr class="unv">
+            <td><b>JORDAN 4 RETRO TRAVIS</b></td>
+            <td><b>$1,670,880.07</b></td>
+            <td><b>Unavailable</b></td>
+        </tr>
+        <tr class="unv">
+            <td><b>AIR JORDAN 1</b></td>
+            <td><b>$6,195.00</b></td>
+            <td><b>Unavailable</b></td>
+        </tr>
+        <tr class="unv1">
+            <td><b>NIKE AIR MAX ALPHA</b></td>
+            <td><b>$4,495.00</b></td>
+            <td><b>Available</b></td>
+        </tr>
+    </table>
+</body>
+</html>
